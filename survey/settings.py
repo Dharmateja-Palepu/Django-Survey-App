@@ -4,7 +4,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = "4wkb*12q$$ih+kibcfjp--kumu99&z-4o0je6-jv_ed%ui4e4r"
 DEBUG = False
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','customsurveyapp.herokuapp.com']
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
